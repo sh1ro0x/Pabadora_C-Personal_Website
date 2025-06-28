@@ -28,16 +28,9 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.bio-info h2 {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0 0 1% 0;
-    font-size: 32px;
-}
+
 .bio-description {
-    margin-top: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
 }
 @media (max-width: 600px) {
@@ -51,3 +44,6 @@
     }
 }
 
+#bio-text{
+    font-size: 42px;
+}
