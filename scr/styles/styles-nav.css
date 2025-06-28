@@ -1,6 +1,6 @@
 nav {
     background-color: #d3d3d3;
-    padding: 0;
+    padding: 2%;
 }
 nav ul {
     list-style: none;
@@ -21,6 +21,7 @@ nav ul li a {
     color: #333;
     transition: background 0.2s;
 }
+
 nav ul li a:hover {
     background-color: #bdbdbd;
 }
