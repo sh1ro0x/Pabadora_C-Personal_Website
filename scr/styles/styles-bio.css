@@ -1,0 +1,45 @@
+.bio-section {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2% 5%;
+}
+.bio-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 2%;
+}
+.bio-photo img {
+    border-radius: 2%;
+    display: block;
+    max-width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+.bio-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.bio-info h2 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 1% 0;
+    font-size: 32px;
+}
+.bio-description {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+@media (max-width: 600px) {
+    .bio-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bio-info h2 {
+        margin-top: 16%;
+    }
+}
