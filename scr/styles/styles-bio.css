@@ -3,7 +3,14 @@
     font-weight: 400;
     font-style: normal;
     margin: 2% 5%;
+    max-width: 700%;
+    margin: 5%;
+    background: #fafafa;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
+
 .bio-flex {
     display: flex;
     align-items: flex-start;
@@ -43,3 +50,4 @@
         margin-top: 16%;
     }
 }
+
