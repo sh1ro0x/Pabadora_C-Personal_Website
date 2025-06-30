@@ -1,16 +1,20 @@
 #FilmDoc-text{
    justify-self: center;
    font-size: 42px;
+   color: rgb(255, 255, 255);
 }
 
 .FilmDoc-section{    
     margin: 2% 5%;
     max-width: 700%;
     margin: 5%;
-    background: #fafafa;
+    background: rgba(211, 211, 211, 0.075);
     padding: 40px 30px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .FilmDoc-divider {
@@ -22,4 +26,5 @@
 
 .FilmDoc-divider iframe {
     margin: 2%;
+    border-radius: 10px;
 }

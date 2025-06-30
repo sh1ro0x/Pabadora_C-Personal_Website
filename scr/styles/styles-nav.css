@@ -1,5 +1,5 @@
 nav {
-    background-color: #d3d3d3;
+    background-color: #272727;
     padding: 2%;
 }
 nav ul {
@@ -18,16 +18,17 @@ nav ul li a {
     font-style: normal;
     display: block;
     padding: 16px 24px;
-    color: #333;
+    color: #fafafa;
     transition: background 0.2s;
 }
 
 nav ul li a:hover {
     background-color: #bdbdbd;
+    border-radius: 4px;
 }
 
 nav {
-  background-color: #d3d3d3;
+  background-color: #272727;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;

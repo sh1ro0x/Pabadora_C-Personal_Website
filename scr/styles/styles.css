@@ -8,10 +8,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #e0e0e0;
+    background: url('../../assets/images/bg-b&w.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
+
 .container {
     font-family: "proxima-nova", sans-serif;
     font-weight: 400;
@@ -28,9 +30,7 @@ h1 {
     color: #333;
     margin-bottom: 10px;
 }
-p {
-    color: #666;
-}
+
 
 .label-text {
     font-family: "proxima-nova", sans-serif;
