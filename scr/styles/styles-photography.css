@@ -47,3 +47,13 @@
         height: 180px;
     }
 }
+
+.photo-gallery .photo-img {
+    transition: transform 0.5s cubic-bezier(.4,2,.6,1);
+    display: inline-block;
+}
+
+.photo-gallery .photo-img:hover {
+    transform: scale(1.08);
+    z-index: 1;
+}
