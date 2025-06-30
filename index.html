@@ -17,8 +17,13 @@
 
 
 <body>
-    <nav>
-        <ul>
+    <nav class="main-nav" style="display: flex; align-items: center; justify-content: space-between;">
+        <div class="nav-logo" style="margin-right: 2rem;">
+            <a href="#bio">
+                <img src="assets/images/my-logo.png" alt="Logo" width="40" height="40">
+            </a>
+        </div>
+        <ul class="nav-links" style="display: flex; gap: 2rem; margin: 0; list-style: none; flex: 1; justify-content: center;">
             <li><a href="#bio" style="text-decoration: none;">About</a></li>
             <li><a href="#photography" style="text-decoration: none;">Photography</a></li>
             <li><a href="#cinematography" style="text-decoration: none;">Cinematography</a></li>
@@ -74,10 +79,9 @@
         <div class="FilmDoc">
             <h3 class="label-text" id="FilmDoc-text">FILMS AND DOCUMENTARIES</h3>
             <hr class="FilmDoc-divider">
-        </div>
-        <div class="FilmDoc-divider">
-            <iframe width="1423" height="716" src="https://www.youtube.com/embed/yylpzTjCNeQ" title="SYK Documentary: Back-to-Back" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="1423" height="600" src="https://www.youtube.com/embed/ifccTRwTIvI" title="Ranpo&#39;s Betrayal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="yt-holder">
+            <iframe width="1080" height="485" src="https://www.youtube.com/embed/yylpzTjCNeQ" title="SYK Documentary: Back-to-Back" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="1080" height="485" src="https://www.youtube.com/embed/ifccTRwTIvI" title="Ranpo&#39;s Betrayal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </section>
 
