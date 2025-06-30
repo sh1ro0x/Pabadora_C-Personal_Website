@@ -32,13 +32,12 @@ p {
     color: #666;
 }
 
-
 .label-text {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
 }
