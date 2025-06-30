@@ -1,3 +1,7 @@
+#bio-text{
+    font-size: 42px;
+}
+
 .bio-section {
     font-family: "proxima-nova", sans-serif;
     font-weight: 400;
@@ -44,6 +48,4 @@
     }
 }
 
-#bio-text{
-    font-size: 42px;
-}
+

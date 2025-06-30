@@ -1,3 +1,8 @@
+#photog-text{
+   justify-self: center;
+   font-size: 42px;
+}
+
 .photography-section{    
     margin: 2% 5%;
     max-width: 700%;
@@ -38,4 +43,3 @@
         height: 180px;
     }
 }
-

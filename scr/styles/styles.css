@@ -39,7 +39,6 @@ p {
     font-style: normal;
 }
 
-#photog-text{
-   justify-self: center;
-   font-size: 42px;
+html {
+    scroll-behavior: smooth;
 }

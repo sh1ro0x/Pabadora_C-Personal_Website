@@ -1,0 +1,37 @@
+#cinematog-text{
+   justify-self: center;
+   font-size: 42px;
+}
+
+.cinematography-section{    
+    margin: 2% 5%;
+    max-width: 700%;
+    margin: 5%;
+    background: #fafafa;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.cinematography-gallery {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.cinematography-gallery .instagram-media {
+    max-width: 540px;
+    min-width: 500px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+@media (max-width: 800px) {
+    .cinematography-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+}
